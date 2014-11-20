@@ -15,9 +15,13 @@ BuildRequires:  pytest
 BuildRequires:  python2-devel
 BuildRequires:  python-argparse
 BuildRequires:  python-jinja2
-BuildRequires:  python-argparse
+BuildRequires:  python-six
+BuildRequires:  PyYAML
 
+Requires:       python-argparse
 Requires:       python-jinja2
+Requires:       python-six
+Requires:       PyYAML
 
 %description
 This is the implementation of the DevAssistant PingPong protocol.
