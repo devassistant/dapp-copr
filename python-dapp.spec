@@ -41,8 +41,8 @@ rm -rf %{name}.egg-info
 
 %files
 %doc README.rst LICENSE
-%{python_sitelib}/%{name}
-%{python_sitelib}/%{name}-%{version}-py?.?.egg-info
+%{python_sitelib}/%{shortname}
+%{python_sitelib}/%{shortname}-%{version}-py?.?.egg-info
 
 %changelog
 * Thu Nov 20 2014 Tomas Radej <tradej@redhat.com> - 0.4.0
