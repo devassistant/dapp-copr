@@ -40,7 +40,7 @@ rm -rf %{name}.egg-info
 %{__python} setup.py test -t py.test
 
 %files
-%doc README LICENSE
+%doc README.rst LICENSE
 %{python_sitelib}/%{name}
 %{python_sitelib}/%{name}-%{version}-py?.?.egg-info
 
